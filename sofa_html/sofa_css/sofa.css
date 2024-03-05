@@ -1,0 +1,111 @@
+
+body {
+    background-color: #857e7e;
+    font-family: 'Raleway';
+
+}
+div {
+    width: 1056px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    
+}
+
+h1, h2, h3 { 
+    font-family: 'Lato';
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 6rem;
+}
+
+h1 span {
+    color: #6b4142;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 3rem
+    
+    
+}
+
+nav a:hover {
+    background-color: #6b4142;
+    color: white;
+}
+
+#carousel-1 {
+    width: 100%;
+}
+.section_articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    
+}
+article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 18rem;
+    
+}
+
+h2 {
+    text-align: center;
+    background-color: #6b4142;
+    margin-bottom: 0;
+    color: white;
+    font-size: 1rem;
+    padding-top: 1rem ;
+    padding-bottom: 1rem;
+}
+
+.first>article>p {
+    background-color:#806f6e;
+    color: white;
+    margin: 0;
+    
+    
+    
+    
+}
+
+.button_plus {
+    width: 3rem;
+    height: 3rem;
+    float: right;
+    margin-top: 3rem;
+    
+    
+    
+}
+
+h3 {
+    font-weight: normal;
+}
+
+#list_p {
+    list-style-image: url(/img/arrow.png);
+}
+
+article>button {
+    text-align: left;
+}
+
+button {
+width: 6rem;
+}
